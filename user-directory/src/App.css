@@ -1,0 +1,116 @@
+.app-container {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    background-color: #222222;
+}
+
+h2 {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #222222;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.header {
+    height: 10vh;
+    width: auto;
+    background-color: #34A5DA;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    margin: 0;
+}
+
+.home-button {
+    cursor: pointer;
+}
+
+.text-button {
+    background: none;
+    border: none;
+    margin: 0;
+}
+
+.card-container {
+    height: 90vh;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 75vw;
+    background-color: #EBEBEB;
+    padding: .5%;
+}
+
+.card-inner {
+    padding: 1em 4em 0em 4em;
+    line-height: 2.2em;
+}
+
+.arr-position {
+    float: right;
+    position: relative;
+    line-height: 0%;
+}
+
+.name {
+    width: fit-content;
+    border-bottom: 3px solid #34A5DA;
+    padding-bottom: 0.2em;
+}
+
+.detail {
+    font-weight: 400;
+}
+
+.list {
+    margin: 0em 0em 0em 3em;
+}
+
+.list-item {
+    margin: 0em 0em 0em 0.5em;
+}
+
+.nav-bar {
+    height: fit-content;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.nav-button {
+    color: white;
+    cursor: pointer;
+}
+
+.edit-bar {
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1em;
+    font-weight: 700;
+    height: 2em;
+    width: 5em;
+    color: white;
+    background-color: #34A5DA;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
