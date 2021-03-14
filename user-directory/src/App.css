@@ -68,6 +68,10 @@ h2 {
     padding-bottom: 0.2em;
 }
 
+.hide {
+    display: none;
+}
+
 .detail {
     font-weight: 400;
 }
